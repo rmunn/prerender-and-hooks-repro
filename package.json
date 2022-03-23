@@ -1,5 +1,5 @@
 {
-  "name": "prerender-and-ssr-mix",
+  "name": "prerender-and-hooks-repro",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
