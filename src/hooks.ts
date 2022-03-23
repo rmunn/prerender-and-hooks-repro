@@ -1,5 +1,6 @@
-/** @type {import('@sveltejs/kit').Handle} */
-export async function handle({ event, resolve }) {
+import type { Handle } from '@sveltejs/kit';
+
+export const handle : Handle = async ({ event, resolve }) => {
   console.log('Handle hook ran for event', event);
   if (event.request.url.startsWith('/custom')) {
     return new Response('custom response');
