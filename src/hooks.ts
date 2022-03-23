@@ -11,5 +11,6 @@ export const handle : Handle = async ({ event, resolve }) => {
 }
 
 export const getSession : GetSession = async () => {
+  console.log('getSession was called')
   return { user: 'Logged-in user' }
 }
